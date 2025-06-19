@@ -1,0 +1,33 @@
+[
+  {
+    "user_id": "U002",
+    "name": "Bob Smith",
+    "borrowed_items": [
+      "M002"
+    ]
+  },
+  {
+    "user_id": "U003",
+    "name": "Charlie Davis",
+    "borrowed_items": [
+      "M003"
+    ]
+  },
+  {
+    "user_id": "D001",
+    "name": "Saja",
+    "borrowed_items": [
+      "D002"
+    ]
+  },
+  {
+    "user_id": "D007",
+    "name": "Sama",
+    "borrowed_items": []
+  },
+  {
+    "user_id": "S111",
+    "name": "Sali",
+    "borrowed_items": []
+  }
+]

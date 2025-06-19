@@ -1,0 +1,67 @@
+[
+  {
+    "title": "National Geographic",
+    "author": "National Geographic Society",
+    "issue_number": 202,
+    "id": "M001",
+    "type": "Magazine",
+    "reservation_queue": [
+      "U002"
+    ]
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "9780451524935",
+    "id": "B002",
+    "type": "Book",
+    "reservation_queue": [
+      "U001",
+      "S111"
+    ]
+  },
+  {
+    "title": "The Matrix",
+    "author": "Lana Wachowski, Lilly Wachowski",
+    "release_year": 1999,
+    "id": "D002",
+    "type": "DVD",
+    "reservation_queue": [
+      "D001"
+    ]
+  },
+  {
+    "title": " The Time Magazine",
+    "author": "Time Inc.",
+    "issue_number": 1234,
+    "id": "M002",
+    "type": "Magazine",
+    "reservation_queue": []
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "isbn": "9780061120084",
+    "id": "B003",
+    "type": "Book",
+    "reservation_queue": []
+  },
+  {
+    "title": "Interstellar",
+    "author": "Christopher Nolan",
+    "release_year": 2014,
+    "id": "D003",
+    "type": "DVD",
+    "reservation_queue": [
+      "U002"
+    ]
+  },
+  {
+    "title": "Scientific American",
+    "author": "Scientific American, Inc.",
+    "issue_number": 456,
+    "id": "M003",
+    "type": "Magazine",
+    "reservation_queue": []
+  }
+]
