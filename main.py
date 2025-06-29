@@ -23,13 +23,11 @@ def main():
       print('4. Borrow an item')
       print('5. Reserve an item')
       print('6. Return an item')
-      print('7. Remove an item ')
-      print('8. Remove a user')
-      print('9. Exit and Save')
+      print('7. Exit and Save')
 
-      choice = int(input('Please enter your choice (1-9): '))
+      choice = int(input('Please enter your choice (1-7): '))
       
-      while choice != 9:
+      while choice != 7:
           if choice == 1:
               my_library.view_available_items()
               
@@ -106,29 +104,10 @@ def main():
                 
             except (EmptyItemIDError, EmptyUserIDError ,UserNotFoundError) as e:
                  print(e)
-                
-                
-          elif choice == 7:
-            try:
-                item_id = input("Enter the item ID to remove: ").strip().title()
-                if not item_id:
-                   raise EmptyItemIDError()
-                my_library.remove_item(item_id)
-            except(ItemNotFoundError,EmptyItemIDError) as e:
-                print(e)
-                
-          elif choice == 8:
-            try :
-                user_id = input("Enter the user ID to remove: ").strip().title()
-                if not user_id:
-                   raise EmptyUserIDError()
-                my_library.remove_user(user_id)
-                
-            except(UserNotFoundError,EmptyUserIDError) as e:
-              print(e)
+         
           else:
-                print("\n❗ Invalid choice. Please enter a number between 1 and 9.\n")
-          choice = int(input('Please enter your choice (1-9): '))
+                print("\n❗ Invalid choice. Please enter a number between 1 and 7.\n")
+          choice = int(input('Please enter your choice (1-7): '))
         
 if __name__== "__main__":
     main()          
